@@ -3,6 +3,7 @@
 * [Brainhack](#brainhack)
 * [Open Science](#open-science)
 * [GitHub](#github)
+* [Documenting projects and code](#documenting-projects-and-code)
 * [Shell programming](#shell-programming)
 * [Python](#python)
   + [Introduction](#introduction)
@@ -63,6 +64,7 @@
   + [Softwares for machine learning (or multivariate) analysis in neuroimaging](#softwares-for-machine-learning-or-multivariate-analysis-in-neuroimaging)
     - [pyMVPA](#pymvpa)
     - [nilearn](#nilearn)
+    - [neuropredict](#neuropredict)    
     - [TDT](#tdt)
     - [ProNTo](#pronto)
     - [RSA toolbox](#rsa-toolbox)
@@ -117,6 +119,10 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [What is GitHub and how to use it](https://www.youtube.com/watch?v=AnftV9HBPSc) (17 min)
 * [Learn Git Branching](https://learngitbranching.js.org/) Neat interactive introduction to Git, like an online game!
 
+## Documenting projects and code
+* [Write a great project ReadMe](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/write-a-great-project-readme/)
+* [Documenting Python Code: A Complete Guide](https://realpython.com/documenting-python-code/)
+
 ## Shell programming
 * [Conquering the command line](http://conqueringthecommandline.com/book/frontmatter)
 * [Learn shell](https://www.learnshell.org/)
@@ -150,6 +156,10 @@ Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journa
 * [Software testing 1](https://neurohackademy.org/course/software-testing/) by Chris Gorgolewski within Neurohackweek
 * [Software testing 2](https://neurohackademy.org/course/software-testing-2/) by Chris Gorgolewski within Neurohackweek
 * [Testing scientific code](https://neurohackademy.org/course/testing-scientific-code/) by Chris Gorgolewski within Neurohackweek 2017 (43 min)
+* [Porting Python 2 code to Python 3 - official](https://docs.python.org/3/howto/pyporting.html)
+  * [guide 2 - another migration guide](http://blog.pyspoken.com/2018/02/13/python-2-to-3-migration-guide/)
+  * [gudie 3 - migration strategies](http://python3porting.com/strategies.html)
+  * [guide 4 - practicalities and packaging](https://python3statement.org/practicalities)
 
 
 ## R
@@ -547,6 +557,10 @@ A list of R based web based apps from [shiny apps](http://shinyapps.org/) and [R
 * [Machine learning in neuroimaging](https://neurohackademy.org/course/machine-learning-in-neuroimaging/) by Gael Varoquaux within Neurohackademy 2018 (2 hr 42 min)
 * [Synthesizing fMRI using generative adversarial networks: cognitive neuroscience applications, promises and pitfalls](https://neurohackademy.org/course/gans-for-brain-imaging/) by Sanmi Koyejo within Neurohackademy 2018 (1 hr 7 min)
 
+#### Hands-On Deep Learning Examples
+* [Introduction to Keras](https://nbviewer.jupyter.org/github/brainhack101/IntroDL/blob/master/IntroToKeras.ipynb) by Anisha Keshavan within [OHBM DL Educational Course 2018](https://brainhack101.github.io/IntroDL/)
+* [Introduction to Keras & Interpretability Methods](https://colab.research.google.com/drive/1EgdnWZeNqmzqEmnSR9PUnYXlTjeu1wAU) by Andrew Doyle within [MAIN 2018 Hands-on DL course](https://brainhack101.github.io/introML/dl-course-outline.html)
+* [Brain Segmentation in Keras](https://colab.research.google.com/github/tfunck/minc_keras/blob/master/main2018.ipynb) by Thomas Funck within MAIN 2018 Hands-on DL course
 
 ### Softwares for machine learning (or multivariate) analysis in neuroimaging
 They are divided in sub-sections depending on the language they use.
@@ -565,6 +579,10 @@ Nilearn is a Python module for fast and easy statistical learning on NeuroImagin
 * [manual](http://nilearn.github.io/user_guide.html)
 * [course/tutorial](http://nilearn.github.io/introduction.html#python-for-neuroimaging-a-quick-start)
 
+#### neuropredict
+neuropredict is an easy to use Python tool for comprehensive evaluation of predictive power of popular ML techniques for features-to-target prediction (such as biomarkers to disease and similar variations)
+* [code](http://github.com/raamana/neuropredict)
+* [docs](http://raamana.github.io/neuropredict)
 
 #### brainIAK
 BrainIAK applies advanced machine learning methods and high-performance computing to analyzing neuroimaging data.
